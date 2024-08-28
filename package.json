@@ -1,6 +1,6 @@
 {
-  "name": "multiAppBackend",
-  "description": "a backend for Multi App handler",
+  "name": "React Dashboard",
+  "description": "a backend for react dashboard",
   "type": "module",
   "version": "1.0.0",
   "main": "index.js",
