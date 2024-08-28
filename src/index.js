@@ -7,7 +7,7 @@ import User from "./modals/user.modals.js";
 import jwt from 'jsonwebtoken';
 
 app.use(cors({
-  origin: 'http://localhost:3000', // Replace with your frontend URL if different
+  origin: ['http://localhost:3000', 'https://react-dashboard-eight-blue.vercel.app'], // Replace with your frontend URL if different
   methods: 'GET, POST, PUT, DELETE',
   allowedHeaders: 'Content-Type, Authorization'
 }));
